@@ -20,7 +20,6 @@
  */
 function concatenateStrings(a, b) {
   return a + b;
-  throw new Error('Not implemented');
 }
 
 
@@ -37,7 +36,6 @@ function concatenateStrings(a, b) {
  */
 function getStringLength(str) {
   return str.length;
-  throw new Error('Not implemented');
 }
 
 /**
@@ -55,7 +53,6 @@ function getStringLength(str) {
  */
 function getStringFromTemplate(a, b) {
   return `Hello, ${a} ${b}!`;
-  throw new Error('Not implemented');
 }
 
 /**
@@ -69,8 +66,7 @@ function getStringFromTemplate(a, b) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(str) {
-  return str.slice(7, -1)
-  throw new Error('Not implemented');
+  return str.slice(7, -1);
 }
 
 
@@ -86,7 +82,6 @@ function extractNameFromTemplate(str) {
  */
 function getFirstChar(str) {
   return str.charAt(0);
-  throw new Error('Not implemented');
 }
 
 /**
@@ -101,8 +96,7 @@ function getFirstChar(str) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(str) {
-  return str.trim()
-  throw new Error('Not implemented');
+  return str.trim();
 }
 
 /**
@@ -117,8 +111,7 @@ function removeLeadingAndTrailingWhitespaces(str) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(str, count) {
-  return str.repeat(count)
-  throw new Error('Not implemented');
+  return str.repeat(count);
 }
 
 /**
@@ -134,8 +127,7 @@ function repeatString(str, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value) {
-  return str.replace(value,'')
-  throw new Error('Not implemented');
+  return str.replace(value, '');
 }
 
 /**
@@ -150,8 +142,7 @@ function removeFirstOccurrences(str, value) {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  return str.slice(1, -1)
-  throw new Error('Not implemented');
+  return str.slice(1, -1);
 }
 
 
@@ -166,8 +157,7 @@ function unbracketTag(str) {
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 function convertToUpperCase(str) {
-  return str.toUpperCase()
-  throw new Error('Not implemented');
+  return str.toUpperCase();
 }
 
 /**
@@ -186,8 +176,7 @@ function convertToUpperCase(str) {
  *   'info@gmail.com' => ['info@gmail.com']
  */
 function extractEmails(str) {
-  return str.split(';')
-  throw new Error('Not implemented');
+  return str.split(';');
 }
 
 /**
