@@ -19,7 +19,8 @@
  *   5, 10 => 50
  *   5, 5  => 25
  */
-function getRectangleArea(/* width, height */) {
+function getRectangleArea(a, b) {
+  return a * b;
   throw new Error('Not implemented');
 }
 
@@ -35,7 +36,8 @@ function getRectangleArea(/* width, height */) {
  *   3.14 => 19.729201864543903
  *   0    => 0
  */
-function getCircleCircumference(/* radius */) {
+function getCircleCircumference(radius) {
+  return radius !== 0 ? radius*Math.PI*2 : 0
   throw new Error('Not implemented');
 }
 
